@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrobject>
+  <input overlap="1" levelqueuebmp="5" preview="4" states="1" levelqueueraw="20" windowwidth="920" width="7952" preload="1" rows="2" fileextension="png" windowheight="920" levelmembmp="200" imagepath="images" levelmemraw="300" height="7952" columns="13" levelbias="0.400" leveltileurl="tiles/c%c_l%r_%y_%x.jpg" leveltilesize="512">
+    <level width="7952" embed="0" height="7952" preload="0" predecode="0"/>
+    <level width="3976" embed="0" height="3976" preload="0" predecode="0"/>
+    <level width="1988" embed="0" height="1988" preload="0" predecode="0"/>
+    <level width="994" embed="0" height="994" preload="0" predecode="0"/>
+    <level width="497" embed="0" height="497" preload="1" predecode="0"/>
+  </input>
+  <control simulatemass="1" lockedmouse="0" swapxy="0" lockedkeyboard="0" dblclickfullscreen="0" revx="0" invertwheel="0" revy="0" wrapx="1" wrapy="0" trapwheel="1" automovemode="1" lockedwheel="0" speedwheel="1.000" controller="1" sensitivity="10"/>
+  <view>
+    <start row="0" column="0" state="0"/>
+    <zoom default="1.000" centerx="0.00000" centery="0.00000" min="1" max="2.000"/>
+    <viewer imagescaling="1" backgroundcolor="0xffffff" background="1"/>
+  </view>
+  <autorotate speed="1.000" delay="5.00" start="0"/>
+  <userdata title="" datetime="" description="" copyright="" author="" source="" comment="" info=""/>
+  <qthotspots enabled="0" reuse="8">
+    <label width="180" backgroundalpha="1.000" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1.000" borderradius="1" wordwrap="1" textalpha="1.000"/>
+  </qthotspots>
+  <hotspots>
+    <label width="180" backgroundalpha="1.000" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1.000" borderradius="1" wordwrap="1" textalpha="1.000"/>
+    <polystyle mode="0" backgroundalpha="0.251" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1.000"/>
+    <hotspot title="飞天图案纽带是否有折" target="" skinid="" url="" id="2" reuse="0" contents="特征点：飞天图案纽带是否有折 检测条件：20倍白光" img="../../images/bottle/裁剪-交叉-20倍白光.JPG" width="200">
+      <location x="0.518109" y="0.339537" row="1" column="0" state="0"/>
+      <location x="0.545775" y="0.33828" row="1" column="12" state="0"/>
+      <location x="0.599849" y="0.33828" row="1" column="11" state="0"/>
+    </hotspot>
+    <hotspot title="瓶身小圆点" target="" skinid="" url="" id="3" reuse="0" contents="特征点：瓶身小圆点 检测条件：20倍白光" img="../../images/bottle/裁剪-圆点-20倍白光.JPG" width="200">
+      <location x="0.602364" y="0.384809" row="1" column="0" state="0"/>
+      <location x="0.618712" y="0.379779" row="1" column="12" state="0"/>
+      <location x="0.364688" y="0.54829" row="0" column="0" state="0"/>
+      <location x="0.417505" y="0.56338" row="0" column="12" state="0"/>
+    </hotspot>
+    <hotspot title="背标有机码" target="" skinid="" url="" id="5" reuse="0" contents="特征点：背标有机码 检测条件：20倍侧光" img="../../images/bottle/裁剪-有机码-20倍白光.JPG" width="200">
+      <location x="0.440141" y="0.357143" row="1" column="8" state="0"/>
+      <location x="0.518109" y="0.355885" row="1" column="7" state="0"/>
+      <location x="0.388581" y="0.350855" row="1" column="9" state="0"/>
+      <location x="0.591046" y="0.357143" row="1" column="6" state="0"/>
+    </hotspot>
+    <hotspot title="背标" target="" skinid="" url="" id="6" reuse="0" contents="特征点：背标 检测条件：20倍白光" img="../../images/bottle/裁剪-茅台图标-20倍白光.JPG" width="200">
+      <location x="0.638833" y="0.406187" row="0" column="5" state="0"/>
+      <location x="0.602364" y="0.42002" row="0" column="6" state="0"/>
+      <location x="0.547032" y="0.42505" row="0" column="7" state="0"/>
+      <location x="0.513078" y="0.389839" row="1" column="7" state="0"/>
+      <location x="0.389839" y="0.384809" row="1" column="9" state="0"/>
+      <location x="0.435111" y="0.389839" row="1" column="8" state="0"/>
+      <location x="0.586016" y="0.392354" row="1" column="6" state="0"/>
+      <location x="0.660211" y="0.386066" row="1" column="5" state="0"/>
+    </hotspot>
+    <hotspot title="瓶口茅台字迹" target="" skinid="" url="" id="1" reuse="0" contents="特征点：瓶口茅台字迹 检验条件：20倍白光" img="../../images/bottle/裁剪-瓶口茅台-20倍白光.JPG" width="200"/>
+    <hotspot title="背标商标" target="" skinid="" url="" id="4" reuse="0" contents="特征点：背标商标 检测条件：20倍紫外光" img="../../images/bottle/裁剪-有机码上面贵州-20倍紫外254.JPG" width="200">
+    </hotspot>
+    <hotspot title="“酒”字" target="" skinid="" url="" id="7" reuse="0" contents="特征点：“酒”字 检测条件：20倍侧光" img="../../images/bottle/裁剪-酒-20倍白光.JPG" width="200">
+      <location x="0.567153" y="0.378521" row="0" column="5" state="0"/>
+      <location x="0.518109" y="0.389839" row="0" column="6" state="0"/>
+      <location x="0.462777" y="0.391097" row="0" column="7" state="0"/>
+      <location x="0.40996" y="0.48164" row="1" column="8" state="0"/>
+      <location x="0.477867" y="0.472837" row="1" column="7" state="0"/>
+      <location x="0.547032" y="0.475352" row="1" column="6" state="0"/>
+      <location x="0.633803" y="0.465292" row="1" column="5" state="0"/>
+    </hotspot>
+  </hotspots>
+</vrobject>

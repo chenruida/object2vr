@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+.container {
+  margin-top: 100px;
+}
+.container li {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+}
+.container p {
+  text-align: center;
+}
+.container img {
+  width: calc(100vw / 5);
+}
+a:visited {
+  text-decoration: none;
+  color: #000;
+}

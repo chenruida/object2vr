@@ -1,0 +1,22 @@
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+/tiles
+/node_modules
+
+.vscode
+.vscode/
+
+# IDEA files
+.idea
+.idea/
+
+# OSX dir files
+.DS_Store
+
+**/tiles

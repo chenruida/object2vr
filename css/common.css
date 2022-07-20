@@ -1,0 +1,17 @@
+.player {
+  height: 920px;
+}
+.container {
+  float: left;
+  width: 50%;
+  height: 920px;
+}
+.zone {
+  display: inline-block;
+  width: 50%;
+  margin-top: calc(100vh / 2.5);
+}
+.zone img {
+  width: calc(100vw / 2.5);
+  visibility: hidden;
+}

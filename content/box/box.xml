@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrobject>
+  <input overlap="1" levelqueuebmp="5" preview="4" states="1" levelqueueraw="20" windowwidth="426" width="5304" preload="1" rows="3" fileextension="jpg" windowheight="638" levelmembmp="200" imagepath="images" levelmemraw="300" height="7952" columns="16" levelbias="0.400" leveltileurl="tiles/c%c_l%r_%y_%x.jpg" leveltilesize="512">
+    <level width="5304" embed="0" height="7952" preload="0" predecode="0"/>
+    <level width="2652" embed="0" height="3976" preload="0" predecode="0"/>
+    <level width="1326" embed="0" height="1988" preload="0" predecode="0"/>
+    <level width="663" embed="0" height="994" preload="0" predecode="0"/>
+    <level width="331" embed="0" height="496" preload="1" predecode="0"/>
+  </input>
+  <control simulatemass="1" lockedmouse="0" swapxy="0" lockedkeyboard="0" dblclickfullscreen="0" revx="0" invertwheel="0" revy="0" wrapx="1" wrapy="0" trapwheel="1" automovemode="1" lockedwheel="0" speedwheel="1.000" controller="1" sensitivity="10"/>
+  <view>
+    <start row="0" column="0" state="0"/>
+    <zoom default="1.000" centerx="0.00000" centery="0.00000" min="1" max="2.000"/>
+    <viewer imagescaling="1" backgroundcolor="0xffffff" background="1"/>
+  </view>
+  <autorotate speed="1.000" delay="5.00" start="0"/>
+  <userdata title="" datetime="" description="" copyright="" author="" source="" comment="" info=""/>
+  <qthotspots enabled="0" reuse="8">
+    <label width="180" backgroundalpha="1.000" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1.000" borderradius="1" wordwrap="1" textalpha="1.000"/>
+  </qthotspots>
+  <hotspots>
+    <label width="180" backgroundalpha="1.000" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1.000" borderradius="1" wordwrap="1" textalpha="1.000"/>
+    <polystyle mode="0" backgroundalpha="0.251" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1.000" />
+    <hotspot title="" target="" skinid="" url="" id="Point01" reuse="0" contents="特征点：盒身飞天标 检验条件：20倍白光"  img="../../images/box/裁剪-飞天标-20倍白光.JPG" width="200" >
+      <location x="0.301659" y="0.460262" row="0" column="2" state="0"/>
+      <location x="0.337481" y="0.453974" row="0" column="1" state="0"/>
+      <location x="0.422323" y="0.460262" row="0" column="0" state="0"/>
+      <location x="0.542986" y="0.460262" row="0" column="15" state="0"/>
+      <location x="0.593891" y="0.465292" row="0" column="14" state="0"/>
+      <location x="0.429864" y="0.626258" row="2" column="0" state="0"/>
+      <location x="0.352564" y="0.61494" row="2" column="1" state="0"/>
+      <location x="0.288462" y="0.584759" row="2" column="2" state="0"/>
+      <location x="0.631599" y="0.582243" row="2" column="13" state="0"/>
+      <location x="0.575038" y="0.609909" row="2" column="14" state="0"/>
+      <location x="0.514706" y="0.618712" row="2" column="15" state="0"/>
+      <location x="0.444947" y="0.554577" row="1" column="0" state="0"/>
+      <location x="0.529789" y="0.55332" row="1" column="15" state="0"/>
+      <location x="0.580694" y="0.54829" row="1" column="14" state="0"/>
+      <location x="0.641026" y="0.539487" row="1" column="13" state="0"/>
+    </hotspot>
+    <hotspot title="" target="" skinid="" url="" id="Point02" reuse="0" contents="特征点：盒身缩微文字 检验条件：20倍白光" img="../../images/box/裁剪-缩微文字-20倍白光.JPG" width="200" >
+      <location x="0.463801" y="0.35337" row="0" column="0" state="0"/>
+      <location x="0.378959" y="0.355885" row="0" column="1" state="0"/>
+      <location x="0.326169" y="0.359658" row="0" column="2" state="0"/>
+      <location x="0.288462" y="0.365946" row="0" column="3" state="0"/>
+      <location x="0.571267" y="0.360915" row="0" column="15" state="0"/>
+      <location x="0.616516" y="0.367203" row="0" column="14" state="0"/>
+      <location x="0.641026" y="0.370976" row="0" column="13" state="0"/>
+      <location x="0.648567" y="0.4917" row="2" column="13" state="0"/>
+      <location x="0.622172" y="0.510563" row="2" column="14" state="0"/>
+      <location x="0.544872" y="0.539487" row="2" column="15" state="0"/>
+      <location x="0.463801" y="0.549547" row="2" column="0" state="0"/>
+      <location x="0.386501" y="0.54326" row="2" column="1" state="0"/>
+      <location x="0.303544" y="0.519366" row="2" column="2" state="0"/>
+      <location x="0.50905" y="0.459004" row="1" column="0" state="0"/>
+      <location x="0.567496" y="0.450201" row="1" column="15" state="0"/>
+      <location x="0.616516" y="0.450201" row="1" column="14" state="0"/>
+      <location x="0.671192" y="0.435111" row="1" column="13" state="0"/>
+    </hotspot>
+    <hotspot title="" target="" skinid="" url="" id="Point03" reuse="0"  contents="特征点：盒身红心 检验条件：20倍白光" img="../../images/box/裁剪-中国有机产品标-20倍白光.JPG" width=""  >
+      <location x="0.518477" y="0.402415" row="0" column="8" state="0"/>
+      <location x="0.648567" y="0.408702" row="0" column="7" state="0"/>
+      <location x="0.686275" y="0.413732" row="0" column="6" state="0"/>
+      <location x="0.697587" y="0.418763" row="0" column="5" state="0"/>
+      <location x="0.292232" y="0.406187" row="0" column="10" state="0"/>
+      <location x="0.363876" y="0.401157" row="0" column="9" state="0"/>
+      <location x="0.575038" y="0.598592" row="2" column="7" state="0"/>
+      <location x="0.654223" y="0.579728" row="2" column="6" state="0"/>
+      <location x="0.705128" y="0.540744" row="2" column="5" state="0"/>
+      <location x="0.490196" y="0.61494" row="2" column="8" state="0"/>
+      <location x="0.412896" y="0.611167" row="2" column="9" state="0"/>
+      <location x="0.307315" y="0.593561" row="2" column="10" state="0"/>
+      <location x="0.684389" y="0.49673" row="1" column="6" state="0"/>
+      <location x="0.331825" y="0.501761" row="1" column="10" state="0"/>
+      <location x="0.411011" y="0.511821" row="1" column="9" state="0"/>
+      <location x="0.512821" y="0.526911" row="1" column="8" state="0"/>
+      <location x="0.612745" y="0.509306" row="1" column="7" state="0"/>
+    </hotspot>
+    <hotspot title="" target="" skinid="" url="" id="Point04" reuse="0"  contents="特征点：盒身左下角茅台字母 检验条件：20倍白光" img="../../images/box/裁剪-左下茅台拼音-20倍白光.JPG" width="" >
+      <location x="0.314857" y="0.813632" row="0" column="4" state="0"/>
+      <location x="0.409125" y="0.823692" row="0" column="3" state="0"/>
+      <location x="0.524133" y="0.822435" row="0" column="2" state="0"/>
+      <location x="0.607089" y="0.818662" row="0" column="1" state="0"/>
+      <location x="0.205505" y="0.790996" row="0" column="7" state="0"/>
+      <location x="0.222474" y="0.799799" row="0" column="6" state="0"/>
+      <location x="0.250754" y="0.812374" row="0" column="5" state="0"/>
+      <location x="0.503394" y="0.89663" row="2" column="2" state="0"/>
+      <location x="0.397813" y="0.892857" row="2" column="3" state="0"/>
+      <location x="0.292232" y="0.867706" row="2" column="4" state="0"/>
+      <location x="0.22813" y="0.817404" row="2" column="5" state="0"/>
+      <location x="0.213047" y="0.770875" row="2" column="6" state="0"/>
+      <location x="0.258296" y="0.77339" row="1" column="6" state="0"/>
+      <location x="0.275264" y="0.798541" row="1" column="5" state="0"/>
+      <location x="0.339367" y="0.827465" row="1" column="4" state="0"/>
+      <location x="0.426094" y="0.855131" row="1" column="3" state="0"/>
+      <location x="0.53733" y="0.857646" row="1" column="2" state="0"/>
+      <location x="0.622172" y="0.836268" row="1" column="1" state="0"/>
+    </hotspot>
+    <hotspot title="" target="" skinid="" url="" id="Point05" reuse="0"  contents="特征点：盒身右下角茅台字母 检验条件：20倍白光" img="../../images/box/裁剪-右下茅台拼音-20倍白光.JPG" width=""  >
+      <location x="0.652338" y="0.813632" row="0" column="4" state="0"/>
+      <location x="0.71267" y="0.804829" row="0" column="3" state="0"/>
+      <location x="0.735294" y="0.796026" row="0" column="2" state="0"/>
+      <location x="0.373303" y="0.823692" row="0" column="7" state="0"/>
+      <location x="0.476998" y="0.822435" row="0" column="6" state="0"/>
+      <location x="0.552413" y="0.821177" row="0" column="5" state="0"/>
+      <location x="0.729638" y="0.778421" row="2" column="2" state="0"/>
+      <location x="0.691931" y="0.847585" row="2" column="3" state="0"/>
+      <location x="0.605204" y="0.892857" row="2" column="4" state="0"/>
+      <location x="0.480769" y="0.915493" row="2" column="5" state="0"/>
+      <location x="0.369532" y="0.907948" row="2" column="6" state="0"/>
+      <location x="0.416667" y="0.868964" row="1" column="6" state="0"/>
+      <location x="0.512821" y="0.871479" row="1" column="5" state="0"/>
+      <location x="0.631599" y="0.858903" row="1" column="4" state="0"/>
+      <location x="0.71267" y="0.826207" row="1" column="3" state="0"/>
+      <location x="0.748492" y="0.783451" row="1" column="2" state="0"/>
+    </hotspot>
+  </hotspots>
+</vrobject>
