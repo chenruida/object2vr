@@ -1043,27 +1043,42 @@ function object2vrPlayer (A) {
     var c = h.v
     // 内容
     c.enabled &&
-      ((b.img = document.createElement('img')),
+      (
+        (b.img = document.createElement('img'), b.text = document.createElement("span")),
         (a = 'position:absolute;' + ('left: -' + c.width / 2 + 'px;')),
-        (a = a + 'top:\t 20px;'),
-        (a = e.h ? a + ('height: ' + e.h + 'px;') : a + 'height: auto;'),
-        (a = e.w ? a + ('width: ' + e.w + 'px;') : a + 'width: auto;'),
+        (a = a + 'top:\t 60px;'),
+        (a = a + ('width: auto;')),
+        (a = a + ('height: 200px;')),
+        b.img.setAttribute('class', 'hotspot'),
+        b.img.style.backgroundSize = "contain",
+        b.text.setAttribute('class', 'hotspot'),
         b.img.setAttribute(
           'style',
           a +
-          'visibility: hidden;border: 1px solid #000000;background-color: #ffffff;text-align: center;overflow: hidden;padding: 0px 1px 0px 1px; z-index:999;'
+          'visibility: hidden;border: 1px solid #000000;background-color: #ffffff;overflow: hidden;padding: 0px 1px 0px 1px; z-index:999;'
         ),
+
         // 添加图像
         b.img.setAttribute('src', e.img),
         b.img.setAttribute('alter', e.txt),
+        b.text.setAttribute('style', 'position:absolute;top:20px;left:-90px;text-align: center;visibility: hidden;border: 1px solid #000000;background-color: #ffffff;overflow: hidden; z-index:999;'),
+        (b.text.style.border = 'solid ' + S(c.C, c.H) + ' ' + c.S + 'px'),
+        (b.text.style.borderRadius = c.R + 'px'),
+        (b.text.style.width = "200px"),
+        (b.text.style.height = '2.5em'),
+        (b.text.style.overflow = 'hidden'),
+        b.text.innerText = e.txt,
         (b.__div.onmouseover = function() {
           0 == c.height &&
             ((w = b.img.offsetWidth), (b.img.style.left = -w / 2 + 'px'))
-          b.img.style.visibility = 'inherit'
+          b.img.style.visibility = 'inherit',
+            b.text.style.visibility = 'inherit'
         }),
         (b.__div.onmouseout = function() {
-          b.img.style.visibility = 'hidden'
+          b.img.style.visibility = 'hidden',
+            b.text.style.visibility = 'hidden'
         }),
+        b.__div.appendChild(b.text),
         b.__div.appendChild(b.img))
   }
 
@@ -2240,8 +2255,6 @@ function object2vrPlayer (A) {
                 (g.h = b.nodeValue.toString())
               ; (b = a.getAttributeNode('wordwrap')) &&
                 (g.wordwrap = 1 == b.nodeValue)
-
-            console.log(g)
             g.locations = []
             for (var l = e.firstChild; l;) {
               if ('location' == l.nodeName) {
